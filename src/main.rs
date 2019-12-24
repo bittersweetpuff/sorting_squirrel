@@ -13,6 +13,6 @@ pub use self::insertion_sort::insertion_sort;
 pub fn main(){
     let mut vec = vec![0, 21, 76, 123, 1, 23, 98, 565, -2, 652, 7];
     println!("presorted vector: {:?} ", vec);
-    selection_sort(&mut vec);
+    insertion_sort(&mut vec);
     println!("presorted vector: {:?} ", vec);
 }
